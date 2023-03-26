@@ -7,11 +7,11 @@ import Search from './components/Search';
 export default function App() {
   return (
     <main>
-     <h1>Meals APP</h1>
+    <Search />  
       {/* <Favorites /> */}
       <Meals />
       { /*<Modal /> */ }
-      { /*<Search /> */ }
+   
     </main>
   )
 }
